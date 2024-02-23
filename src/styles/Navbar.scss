@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #212731;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:64px;
+}
+
+.navbar__search{
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    border-radius:8px;
+    width:260px;
+}
+
+.navbar__input{
+    outline: none;
+    border: none;
+    height:30px;
+    flex:1;
+    font-size: 16px;
+    padding-left:10px
+}
+
+.navbar__list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap:30px;
+    color:#D1D6DA;
+    font-size: 14px;
+}
