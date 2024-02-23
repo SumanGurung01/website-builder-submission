@@ -34,3 +34,33 @@ export const products = [
         image_name: "Builder 1"
     }
 ];
+
+export const specialProducts = [
+    {
+        name: "CDK Resposive Builder",
+        description:
+            "An extensive library of widgets and apps, and detailed step-by-step guides",
+        discount: 26,
+        highlight: {
+            "Building responsive": 9.9,
+            Cool: 8.9,
+            Docs: 8.9
+        },
+        points: ["Documentation", "Easy Use", "Out of Box"],
+        rating: 9.1,
+        remark: "Very Good",
+        image_name: "CDK"
+    }
+];
+
+export const stars = {
+    Exceptional: ["fa-star", "fa-star", "fa-star", "fa-star", "fa-star"],
+    Excellent: [
+        "fa-star",
+        "fa-star",
+        "fa-star",
+        "fa-star",
+        "fa-star-half-full"
+    ],
+    "Very Good": ["fa-star", "fa-star", "fa-star", "fa-star", "fa-star-o"]
+};

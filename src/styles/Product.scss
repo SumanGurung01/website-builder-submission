@@ -12,7 +12,7 @@
     border-radius: 12px;
     display:flex;
     justify-content:center;
-    margin:20px 0px 20px 0px;
+    margin:40px 0px 40px 0px;
     position: relative;
 }
 
@@ -120,4 +120,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.highlight{
+    background-color: #FFF4ED;
+    border-radius: 12px;
+    padding:1px 0px 1px 10px;
+    margin:0px 0px 0px 20px
+}
+
+.points>p{
+    margin:0;
+    padding:0;
+    display:flex;
+    // justify-content: center;
+    align-items: center;
+    gap:6px;
 }
