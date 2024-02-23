@@ -50,7 +50,9 @@ function LinkButton() {
     return (
         <div className="linkbutton">
             {links.map((link) => (
-                <p className="linkbutton__link">{link}</p>
+                <p className="linkbutton__link" key={link}>
+                    {link}
+                </p>
             ))}
         </div>
     );
@@ -68,7 +70,7 @@ function BreadCrumb() {
     return (
         <div className="breadcrumb">
             {crumbs.map((crumb, index) => (
-                <p className="crumb">
+                <p className="crumb" key={crumb}>
                     {crumb}
                     {index !== crumbs.length - 1 ? (
                         <ChevronRight size={20} color={"#4B5665"} />

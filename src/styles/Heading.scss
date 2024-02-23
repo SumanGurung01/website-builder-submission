@@ -40,7 +40,7 @@
 
 .linkbutton{
     display: flex;
-    gap:30px
+    gap:30px;
 }
 
 .linkbutton__link{
@@ -55,7 +55,8 @@
 }
 
 .breadcrumb{
-    display:flex
+    display:flex;
+    margin: 0px 0px 30px 0px;
 }
 
 .breadcrumb > p{
@@ -64,4 +65,8 @@
     gap:10px;
     margin-right:10px;
     color:#727D87;
+}
+
+.crumb{
+    cursor:pointer;
 }

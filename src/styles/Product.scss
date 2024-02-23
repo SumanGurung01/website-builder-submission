@@ -1,0 +1,123 @@
+.product{
+    color:#626E79;
+    font-family:'Inter';
+    font-weight:400;
+    font-size:14px;
+    line-height:20px;
+    position: relative;
+}
+
+.productcard{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display:flex;
+    justify-content:center;
+    margin:20px 0px 20px 0px;
+    position: relative;
+}
+
+.tag{
+    display:flex;
+    align-items:center;
+    position: absolute;
+    background-color: #FF7724;
+    left:-10px;
+    height:34px;
+    top:-17px;
+    color:#FFFFFF;
+    font-size:16px;
+    line-height:24px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.tag > p{
+    padding:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px
+}
+
+.index{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: absolute; 
+    width:44px;
+    height:44px;
+    border-radius:100%;
+    border:1px solid #E1E4E6;
+    color:#626E79;
+    background-color: #FFFFFF;
+    font-size:20px;
+    left:-22px;
+    top:30px;
+}
+
+.productcard__image{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.product__description{
+    font-size:16px;
+    line-height:24px;
+    color:#4B5665;
+    padding:10px;
+}
+
+.bold{
+    font-size:16px;
+    line-height:24px;
+    font-weight:700px;
+    color:#4B5665
+}
+
+.show__more{
+    color:#1B88F4;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    cursor:pointer;
+}
+
+.product__rating{
+    display:flex;
+    flex-direction: column;
+    padding:0px 10px 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating__container{
+    width:135px;
+    height:118px;
+    background-color: #F3F9FF;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.rating__container>p{
+    margin:0px 0px 10px 0px;
+    padding:0;
+    text-align:center;
+}
+
+.product__rating>button{
+    background-color:#1B88F4;
+    width:232px;
+    height:48px;
+    color:#FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.stars{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
