@@ -12,6 +12,7 @@
     color:#2C384A;
 }
 
+
 .infolist{
     display: flex;
     border-top:1px solid #E1E4E6;
@@ -65,8 +66,38 @@
     gap:10px;
     margin-right:10px;
     color:#727D87;
+    flex:0 0; 
 }
 
 .crumb{
     cursor:pointer;
+}
+
+@media screen and (max-width:640px) {
+    .infolist__info{
+        display:block;
+    }
+
+    .infolist{
+        display:block; 
+    }
+
+    .linkbutton{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-top:10px;
+    }
+
+    .linkbutton__link{
+        margin:1px;
+    }
+
+    .breadcrumb{
+        overflow-x: auto;
+        scrollbar-width: none;  
+    }
+
+    .breadcrumb::-webkit-scrollbar {
+        display: none;
+    }
 }

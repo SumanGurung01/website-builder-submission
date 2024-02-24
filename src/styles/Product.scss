@@ -133,7 +133,29 @@
     margin:0;
     padding:0;
     display:flex;
-    // justify-content: center;
     align-items: center;
     gap:6px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .productcard{
+        display:block;
+        margin-left:15px;
+    }
+
+    .product__rating{
+        display:block;
+    }
+
+    .rating__container{
+        padding-top:4px;
+        margin-left:-10px;
+        border-radius: 0px 12px 12px 0px;
+    }
+
+    .product__rating>button{
+       margin-top:20px;
+    }
+
 }

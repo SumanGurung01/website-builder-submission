@@ -16,16 +16,7 @@ function RelatedDeal() {
             >
                 Related deals you might like for
             </p>
-            <div
-                style={{
-                    display: "flex",
-                    gap: "20px",
-                    fontFamily: "Inter",
-                    fontWeight: "400px",
-                    fontSize: "14px",
-                    lineHeight: "20px"
-                }}
-            >
+            <div className="related__deal__container">
                 {relatedDeals.map((deal) => (
                     <Deals product={deal} />
                 ))}
