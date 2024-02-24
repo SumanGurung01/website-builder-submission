@@ -86,19 +86,5 @@ export const relatedDeals = [
         current_price: 39.96,
         discount: 20,
         original_price: 49.46
-    },
-    {
-        name: "Webbuilder 1",
-        description: "Computer Modern clasic with wix support",
-        current_price: 39.96,
-        discount: 20,
-        original_price: 49.46
-    },
-    {
-        name: "Webbuilder 1",
-        description: "Computer Modern clasic with wix support",
-        current_price: 39.96,
-        discount: 20,
-        original_price: 49.46
     }
 ];
